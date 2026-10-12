@@ -37,14 +37,26 @@ def main():
     payload={"sector_id":"S1","slope_height_m":60,"slope_angle_deg":40,"cohesion_kpa":35,"friction_angle_deg":30,"unit_weight_kn_m3":24,"rainfall_mm":25,"groundwater_level":10,"pore_pressure_kpa":50,"deformation_rate_mm_day":3.5,"displacement_mm":25,"recent_blasting":0,"blast_intensity":0,"equipment_load":10,"scenario_name":"Smoke test"}
     check("Monte Carlo PoF",client.post("/simulate/pof",json=payload))
     check("physics response surfaces",client.post("/physics/response-surfaces",json=payload))
+    check("Tornado sensitivity",client.post("/simulate/sensitivity",json=payload))
+    check("mitigation recommendations",client.post("/simulate/recommendations",json=payload))
+    check("workers geofence status",client.get("/workers/status"))
+    check("model telemetry drift",client.get("/model/drift"))
     check("PDF report",client.get("/report/S1.pdf"))
-    # Upload one project image for the material endpoint.
+    check("TTA profiles",client.get("/tta/profiles"))
+    check("TTA simulation",client.post("/simulate/tta?mine_key=mine_alpha"))
+    # Upload one project image for the material endpoint and YOLO detector.
     image_path=next((ROOT/"data/raw/images").rglob("*.jpg"),None)
     if image_path:
         with open(image_path,"rb") as f:
             check("image classification",client.post("/image/classify",files={"file":(image_path.name,f,"image/jpeg")}))
+        with open(image_path,"rb") as f:
+            check("YOLO hazard detection",client.post("/yolo/detect",files={"file":(image_path.name,f,"image/jpeg")}))
     else:
         print("SKIP image classification: no bundled sample image found")
+        
+    dummy_wav = b"RIFF$ \x00\x00WAVEfmt \x10\x00\x00\x00\x01\x00\x01\x00D\xac\x00\x00\x88X\x01\x00\x02\x00\x10\x00data\x00 \x00\x00" + b"\x00" * 200
+    check("Whisper ASR assistant", client.post("/assistant/whisper", files={"file": ("speech.wav", dummy_wav, "audio/wav")}))
+    
     failures=[x for x in checks if not x[1]]
     print(f"\n{len(checks)-len(failures)}/{len(checks)} endpoint checks passed")
     if failures: raise SystemExit(1)

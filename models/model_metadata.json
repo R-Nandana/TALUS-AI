@@ -42,7 +42,7 @@
   "dataset_size": 1200,
   "train_size": 960,
   "test_size": 240,
-  "saved_at": "2026-10-12 14:45:40",
+  "saved_at": "2026-10-12 21:41:01",
   "ml_rigor_artifacts": {
     "summary": "results/ml_rigor_summary.json",
     "comparison": "results/ml_rigor_model_comparison.csv",

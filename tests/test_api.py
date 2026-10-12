@@ -85,3 +85,49 @@ def test_material_image_classifier_endpoint():
     result = response.json()
     assert result["predicted_material"]
     assert 0 <= result["confidence"] <= 1
+
+
+def test_workers_geofence_and_advanced_simulation():
+    w = client.get("/workers/status")
+    assert w.status_code == 200 and len(w.json()["workers"]) >= 5
+    payload = {
+        "sector_id": "S1", "slope_height_m": 60, "slope_angle_deg": 40,
+        "cohesion_kpa": 35, "friction_angle_deg": 30, "unit_weight_kn_m3": 24,
+        "rainfall_mm": 25, "groundwater_level": 10, "pore_pressure_kpa": 50,
+        "deformation_rate_mm_day": 3.5, "displacement_mm": 25,
+        "recent_blasting": 0, "blast_intensity": 0, "equipment_load": 10,
+        "scenario_name": "test"
+    }
+    sens = client.post("/simulate/sensitivity", json=payload)
+    assert sens.status_code == 200 and len(sens.json()["sensitivity_parameters"]) > 0
+    recs = client.post("/simulate/recommendations", json=payload)
+    assert recs.status_code == 200 and len(recs.json()["ranked_recommendations"]) > 0
+    drift = client.get("/model/drift")
+    assert drift.status_code == 200
+
+
+def test_yolo_hazard_detection_and_tta():
+    # Test TTA profiles and simulation
+    prof = client.get("/tta/profiles")
+    assert prof.status_code == 200 and "mine_alpha" in prof.json()["profiles"]
+    tta = client.post("/simulate/tta?mine_key=mine_alpha")
+    assert tta.status_code == 200 and "adapted_tta" in tta.json()
+    
+    # Test YOLO detection on sample image
+    from pathlib import Path
+    image_path = next((Path(ROOT_DIR) / "data" / "raw" / "images").rglob("*.jpg"))
+    with open(image_path, "rb") as f:
+        yolo_res = client.post("/yolo/detect", files={"file": (image_path.name, f, "image/jpeg")})
+    assert yolo_res.status_code == 200
+    data = yolo_res.json()
+    assert "safety_assessment" in data and "annotated_image_base64" in data
+
+
+def test_whisper_assistant_endpoint():
+    dummy_wav = b"RIFF$ \x00\x00WAVEfmt \x10\x00\x00\x00\x01\x00\x01\x00D\xac\x00\x00\x88X\x01\x00\x02\x00\x10\x00data\x00 \x00\x00" + b"\x00" * 200
+    r = client.post("/assistant/whisper", files={"file": ("speech.wav", dummy_wav, "audio/wav")})
+    assert r.status_code == 200
+    res = r.json()
+    assert "transcript" in res and "text" in res
+
+

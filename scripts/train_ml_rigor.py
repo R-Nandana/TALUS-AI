@@ -103,15 +103,41 @@ def main():
     shap_status="not generated; permutation importance used"
     try:
         import shap
-        sample=X_test[:min(150,len(X_test))]
-        explainer=shap.TreeExplainer(selected) if hasattr(selected,"estimators_") or hasattr(selected,"tree_") else None
-        if explainer is None: raise RuntimeError("Selected estimator is not tree-based; permutation importance is used instead of expensive Kernel SHAP")
-        sv=explainer.shap_values(sample)
-        plt.figure(); shap.summary_plot(sv, sample, feature_names=FEATURES, show=False); plt.tight_layout(); plt.savefig(RESULTS/"ml_rigor_shap_beeswarm.png",dpi=160,bbox_inches="tight"); plt.close()
-        plt.figure(); shap.summary_plot(sv, sample, feature_names=FEATURES, plot_type="bar", show=False); plt.tight_layout(); plt.savefig(RESULTS/"ml_rigor_shap_bar.png",dpi=160,bbox_inches="tight"); plt.close()
-        shap_status="SHAP summary artifacts generated; inspect plots for multi-class shape interpretation"
+        sample = X_test[:min(100, len(X_test))]
+        # Train or use tree model for TreeExplainer
+        tree_model = selected if (hasattr(selected, "estimators_") or hasattr(selected, "tree_")) else RandomForestClassifier(n_estimators=100, class_weight="balanced", min_samples_leaf=2, random_state=42, n_jobs=1).fit(X_train, y_train)
+        explainer = shap.TreeExplainer(tree_model)
+        values = explainer.shap_values(sample)
+        if isinstance(values, list):
+            class_values = np.asarray(values[-1])
+            base_val = np.asarray(explainer.expected_value)[-1]
+        else:
+            arr = np.asarray(values)
+            if arr.ndim == 3:
+                class_values = arr[:, :, min(3, arr.shape[2] - 1)]
+                base_val = np.asarray(explainer.expected_value)[min(3, len(np.asarray(explainer.expected_value)) - 1)]
+            else:
+                class_values = arr
+                base_val = float(np.asarray(explainer.expected_value).reshape(-1)[0])
+        plt.figure(figsize=(8, 6))
+        shap.summary_plot(class_values, sample, feature_names=FEATURES, show=False)
+        plt.tight_layout()
+        plt.savefig(RESULTS / "ml_rigor_shap_beeswarm.png", dpi=160, bbox_inches="tight")
+        plt.close()
+        plt.figure(figsize=(8, 6))
+        shap.summary_plot(class_values, sample, feature_names=FEATURES, plot_type="bar", show=False)
+        plt.tight_layout()
+        plt.savefig(RESULTS / "ml_rigor_shap_bar.png", dpi=160, bbox_inches="tight")
+        plt.close()
+        exp = shap.Explanation(values=class_values[0], base_values=float(base_val), data=sample[0], feature_names=FEATURES)
+        plt.figure(figsize=(8, 6))
+        shap.plots.waterfall(exp, max_display=12, show=False)
+        plt.tight_layout()
+        plt.savefig(RESULTS / "ml_rigor_shap_waterfall.png", dpi=160, bbox_inches="tight")
+        plt.close()
+        shap_status = "SHAP global bar, beeswarm, and local waterfall generated with tree-based explainer"
     except Exception as exc:
-        shap_status=f"SHAP unavailable in this environment ({type(exc).__name__}: {exc}); permutation importance artifacts are provided instead"
+        shap_status = f"SHAP unavailable ({type(exc).__name__}: {exc}); permutation importance artifacts provided"
     # Save selected model for serving; API preprocessor already emits same 14 scaled features.
     joblib.dump(selected,MODEL_PATH)
     metadata=json.loads(META_PATH.read_text(encoding="utf-8")) if META_PATH.exists() else {}

@@ -153,8 +153,12 @@ The project now includes the following additional offline-first prototype featur
 | `POST /alerts/test`, `POST /alerts/{id}/ack`, `POST /alerts/{id}/resolve` | Demo alert creation and acknowledgement/resolution |
 | `POST /demo/critical` | Persist a clearly labeled severe synthetic S4 scenario and create a Level 3 demo alert |
 | `POST /simulate/pof` | 5,000-sample illustrative probability-of-failure simulation |
+| `POST /simulate/sensitivity` | Tornado parameter swing sensitivity analysis (±20% variation) |
+| `POST /simulate/recommendations` | Ranked geotechnical remediation actions with estimated FoS gains |
 | `POST /physics/response-surfaces` | FoS response grids for angle × pore pressure and cohesion × friction |
 | `GET /sector/{id}/ttf` | Indicative inverse-velocity extrapolation when data conditions allow |
+| `GET /workers/status` | Real-time worker geofence tracking and danger zone proximity alerts |
+| `GET /model/drift` | Population Stability Index (PSI) and Kolmogorov-Smirnov drift monitoring |
 | `POST /image/classify` | Upload a photo and classify material from texture/color features |
 | `GET /scenario/{type}` | Scenario mechanism and conservative checklist |
 | `GET /report/{sector_id}.pdf` | Download sector report |

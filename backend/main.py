@@ -13,7 +13,11 @@ if ROOT_DIR not in sys.path:
 from backend.schemas import SectorPredictRequest, SectorPredictResponse
 from backend.predictor import predict_sector_risk, get_model_info
 from backend.database import get_sector_history, get_latest_mine_overview, init_db, get_data_summary
-from backend.advanced import (init_alerts, list_alerts, create_alert, acknowledge_alert, resolve_alert, parse_assistant, monte_carlo_pof, time_to_failure, classify_material)
+from backend.advanced import (
+    init_alerts, list_alerts, create_alert, acknowledge_alert, resolve_alert,
+    parse_assistant, monte_carlo_pof, time_to_failure, classify_material,
+    get_simulated_workers, tornado_sensitivity, geotechnical_recommendations, model_drift_analysis
+)
 
 VERSION = "3.0.0"
 @asynccontextmanager
@@ -122,6 +126,20 @@ def assistant_query(request: AssistantQuery):
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Assistant query failed: {exc}")
 
+@app.post("/assistant/whisper", summary="OpenAI Whisper speech audio transcriber & intent executor")
+async def assistant_whisper(file: UploadFile = File(...)):
+    try:
+        raw_audio = await file.read()
+        from backend.whisper_engine import transcribe_audio_bytes
+        transcript = transcribe_audio_bytes(raw_audio, file.filename or "audio.wav")
+        sectors = get_latest_mine_overview()
+        alerts = list_alerts(active_only=False)
+        result = parse_assistant(transcript, sectors, alerts)
+        result["transcript"] = transcript
+        return result
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Whisper transcription failed: {exc}")
+
 @app.post("/demo/critical", summary="Run a clearly labeled severe S4 demo scenario")
 def demo_critical():
     # Deliberately severe synthetic inputs for classroom demonstration only.
@@ -192,6 +210,28 @@ def physics_response_surfaces(request: SectorPredictRequest):
 @app.get("/sector/{sector_id}/ttf", summary="Indicative inverse-velocity estimate")
 def sector_ttf(sector_id: str = Path(..., pattern=r"^S[A-Za-z0-9_-]+$")):
     return time_to_failure(sector_id.upper())
+
+@app.get("/workers/status", summary="Worker geofence tracking and danger zone detection")
+def workers_status():
+    return get_simulated_workers()
+
+@app.post("/simulate/sensitivity", summary="Tornado FoS parameter sensitivity analysis")
+def simulate_sensitivity(request: SectorPredictRequest):
+    try:
+        return tornado_sensitivity(request.model_dump())
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Sensitivity calculation failed: {exc}")
+
+@app.post("/simulate/recommendations", summary="Ranked geotechnical mitigation actions")
+def simulate_recommendations(request: SectorPredictRequest):
+    try:
+        return geotechnical_recommendations(request.model_dump())
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Recommendations calculation failed: {exc}")
+
+@app.get("/model/drift", summary="Model and telemetry data drift metrics")
+def model_drift():
+    return model_drift_analysis()
 
 @app.post("/image/classify", summary="Classify uploaded rock/soil photo")
 async def image_classify(file: UploadFile = File(...)):
@@ -269,3 +309,33 @@ def system_health_detail():
         return {"status": "healthy", "api_version": VERSION, "model": info.get("selected_model"), "dataset_records": data.get("records", 0), "database_bytes": db_size, "response_ms": round((time.perf_counter()-started)*1000, 2), "synthetic_data": True}
     except Exception as exc:
         raise HTTPException(status_code=503, detail=str(exc))
+
+@app.post("/yolo/detect", summary="YOLOv8 mine hazard and equipment detection")
+async def yolo_detect_endpoint(file: UploadFile = File(...)):
+    import base64
+    from backend.yolo_detector import detect_mine_hazards
+    if file.content_type not in {"image/jpeg", "image/png", "image/webp", "image/bmp"}:
+        raise HTTPException(status_code=415, detail="Upload a JPEG, PNG, WEBP, or BMP image.")
+    raw = await file.read()
+    if len(raw) > 12 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="Image must be 12 MB or smaller.")
+    try:
+        result = detect_mine_hazards(raw)
+        annotated_b64 = base64.b64encode(result.pop("annotated_image_bytes")).decode("utf-8")
+        result["annotated_image_base64"] = annotated_b64
+        return result
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"YOLO detection failed: {exc}")
+
+@app.post("/simulate/tta", summary="Test-Time Adaptation (TTA) for unseen mine environments")
+def simulate_tta_endpoint(mine_key: str = Query("mine_alpha")):
+    from backend.tta_engine import run_test_time_adaptation
+    try:
+        return run_test_time_adaptation(mine_key)
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"TTA adaptation failed: {exc}")
+
+@app.get("/tta/profiles", summary="Available unseen mine site profiles for adaptation")
+def tta_profiles_endpoint():
+    from backend.tta_engine import MINE_PROFILES
+    return {"profiles": MINE_PROFILES}
