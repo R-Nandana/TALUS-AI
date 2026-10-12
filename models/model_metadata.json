@@ -1,0 +1,54 @@
+{
+  "selected_model": "Support Vector Machine",
+  "selection_metric": "5-fold stratified CV macro_f1 (mean)",
+  "performance": {
+    "accuracy": 0.8416666666666667,
+    "precision": 0.7643068220195879,
+    "recall": 0.8402867152867153,
+    "f1_score": 0.794032341090225,
+    "roc_auc": 0.9668134739224642,
+    "model_name": "Support Vector Machine",
+    "macro_f1": 0.794032341090225,
+    "weighted_f1": 0.844708894687328
+  },
+  "feature_names": [
+    "slope_height_m",
+    "slope_angle_deg",
+    "cohesion_kpa",
+    "friction_angle_deg",
+    "unit_weight_kn_m3",
+    "rainfall_mm",
+    "groundwater_level",
+    "pore_pressure_kpa",
+    "deformation_rate_mm_day",
+    "displacement_mm",
+    "recent_blasting",
+    "blast_intensity",
+    "equipment_load",
+    "factor_of_safety"
+  ],
+  "class_labels": [
+    "Low",
+    "Moderate",
+    "High",
+    "Critical"
+  ],
+  "all_models_evaluated": [
+    "Logistic Regression",
+    "Support Vector Machine",
+    "Random Forest",
+    "Gradient Boosting"
+  ],
+  "dataset_size": 1200,
+  "train_size": 960,
+  "test_size": 240,
+  "saved_at": "2026-10-12 14:45:40",
+  "ml_rigor_artifacts": {
+    "summary": "results/ml_rigor_summary.json",
+    "comparison": "results/ml_rigor_model_comparison.csv",
+    "shap_global_bar": "results/ml_rigor_shap_bar.png",
+    "shap_beeswarm": "results/ml_rigor_shap_beeswarm.png",
+    "shap_local_waterfall": "results/ml_rigor_shap_waterfall.png",
+    "permutation_importance": "results/ml_rigor_importance.png"
+  }
+}

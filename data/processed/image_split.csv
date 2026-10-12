@@ -1,0 +1,321 @@
+image_id,filepath,material,split
+basalt_001,images/basalt/basalt_001.jpg,Basalt,train
+basalt_002,images/basalt/basalt_002.jpg,Basalt,train
+basalt_003,images/basalt/basalt_003.jpg,Basalt,train
+basalt_004,images/basalt/basalt_004.jpg,Basalt,train
+basalt_005,images/basalt/basalt_005.jpg,Basalt,test
+basalt_006,images/basalt/basalt_006.jpg,Basalt,test
+basalt_007,images/basalt/basalt_007.jpg,Basalt,train
+basalt_008,images/basalt/basalt_008.jpg,Basalt,test
+basalt_009,images/basalt/basalt_009.jpg,Basalt,train
+basalt_010,images/basalt/basalt_010.jpg,Basalt,train
+basalt_011,images/basalt/basalt_011.jpg,Basalt,train
+basalt_012,images/basalt/basalt_012.jpg,Basalt,train
+basalt_013,images/basalt/basalt_013.jpg,Basalt,train
+basalt_014,images/basalt/basalt_014.jpg,Basalt,train
+basalt_015,images/basalt/basalt_015.jpg,Basalt,train
+basalt_016,images/basalt/basalt_016.jpg,Basalt,train
+basalt_017,images/basalt/basalt_017.jpg,Basalt,test
+basalt_018,images/basalt/basalt_018.jpg,Basalt,train
+basalt_019,images/basalt/basalt_019.jpg,Basalt,test
+basalt_020,images/basalt/basalt_020.jpg,Basalt,train
+basalt_021,images/basalt/basalt_021.jpg,Basalt,train
+basalt_022,images/basalt/basalt_022.jpg,Basalt,train
+basalt_023,images/basalt/basalt_023.jpg,Basalt,train
+basalt_024,images/basalt/basalt_024.jpg,Basalt,train
+basalt_025,images/basalt/basalt_025.jpg,Basalt,train
+basalt_026,images/basalt/basalt_026.jpg,Basalt,train
+basalt_027,images/basalt/basalt_027.jpg,Basalt,train
+basalt_028,images/basalt/basalt_028.jpg,Basalt,train
+basalt_029,images/basalt/basalt_029.jpg,Basalt,train
+basalt_030,images/basalt/basalt_030.jpg,Basalt,train
+basalt_031,images/basalt/basalt_031.jpg,Basalt,train
+basalt_032,images/basalt/basalt_032.jpg,Basalt,train
+basalt_033,images/basalt/basalt_033.jpg,Basalt,test
+basalt_034,images/basalt/basalt_034.jpg,Basalt,train
+basalt_035,images/basalt/basalt_035.jpg,Basalt,train
+basalt_036,images/basalt/basalt_036.jpg,Basalt,train
+basalt_037,images/basalt/basalt_037.jpg,Basalt,train
+basalt_038,images/basalt/basalt_038.jpg,Basalt,test
+basalt_039,images/basalt/basalt_039.jpg,Basalt,train
+basalt_040,images/basalt/basalt_040.jpg,Basalt,test
+clay_001,images/clay/clay_001.jpg,Clay,test
+clay_002,images/clay/clay_002.jpg,Clay,train
+clay_003,images/clay/clay_003.jpg,Clay,train
+clay_004,images/clay/clay_004.jpg,Clay,train
+clay_005,images/clay/clay_005.jpg,Clay,train
+clay_006,images/clay/clay_006.jpg,Clay,train
+clay_007,images/clay/clay_007.jpg,Clay,test
+clay_008,images/clay/clay_008.jpg,Clay,train
+clay_009,images/clay/clay_009.jpg,Clay,train
+clay_010,images/clay/clay_010.jpg,Clay,train
+clay_011,images/clay/clay_011.jpg,Clay,train
+clay_012,images/clay/clay_012.jpg,Clay,train
+clay_013,images/clay/clay_013.jpg,Clay,train
+clay_014,images/clay/clay_014.jpg,Clay,test
+clay_015,images/clay/clay_015.jpg,Clay,train
+clay_016,images/clay/clay_016.jpg,Clay,test
+clay_017,images/clay/clay_017.jpg,Clay,train
+clay_018,images/clay/clay_018.jpg,Clay,train
+clay_019,images/clay/clay_019.jpg,Clay,train
+clay_020,images/clay/clay_020.jpg,Clay,train
+clay_021,images/clay/clay_021.jpg,Clay,train
+clay_022,images/clay/clay_022.jpg,Clay,test
+clay_023,images/clay/clay_023.jpg,Clay,train
+clay_024,images/clay/clay_024.jpg,Clay,train
+clay_025,images/clay/clay_025.jpg,Clay,train
+clay_026,images/clay/clay_026.jpg,Clay,train
+clay_027,images/clay/clay_027.jpg,Clay,test
+clay_028,images/clay/clay_028.jpg,Clay,train
+clay_029,images/clay/clay_029.jpg,Clay,train
+clay_030,images/clay/clay_030.jpg,Clay,test
+clay_031,images/clay/clay_031.jpg,Clay,train
+clay_032,images/clay/clay_032.jpg,Clay,train
+clay_033,images/clay/clay_033.jpg,Clay,train
+clay_034,images/clay/clay_034.jpg,Clay,test
+clay_035,images/clay/clay_035.jpg,Clay,train
+clay_036,images/clay/clay_036.jpg,Clay,train
+clay_037,images/clay/clay_037.jpg,Clay,train
+clay_038,images/clay/clay_038.jpg,Clay,train
+clay_039,images/clay/clay_039.jpg,Clay,train
+clay_040,images/clay/clay_040.jpg,Clay,train
+granite_001,images/granite/granite_001.jpg,Granite,test
+granite_002,images/granite/granite_002.jpg,Granite,train
+granite_003,images/granite/granite_003.jpg,Granite,train
+granite_004,images/granite/granite_004.jpg,Granite,test
+granite_005,images/granite/granite_005.jpg,Granite,train
+granite_006,images/granite/granite_006.jpg,Granite,test
+granite_007,images/granite/granite_007.jpg,Granite,train
+granite_008,images/granite/granite_008.jpg,Granite,train
+granite_009,images/granite/granite_009.jpg,Granite,train
+granite_010,images/granite/granite_010.jpg,Granite,train
+granite_011,images/granite/granite_011.jpg,Granite,train
+granite_012,images/granite/granite_012.jpg,Granite,test
+granite_013,images/granite/granite_013.jpg,Granite,train
+granite_014,images/granite/granite_014.jpg,Granite,train
+granite_015,images/granite/granite_015.jpg,Granite,train
+granite_016,images/granite/granite_016.jpg,Granite,train
+granite_017,images/granite/granite_017.jpg,Granite,test
+granite_018,images/granite/granite_018.jpg,Granite,train
+granite_019,images/granite/granite_019.jpg,Granite,train
+granite_020,images/granite/granite_020.jpg,Granite,train
+granite_021,images/granite/granite_021.jpg,Granite,train
+granite_022,images/granite/granite_022.jpg,Granite,train
+granite_023,images/granite/granite_023.jpg,Granite,train
+granite_024,images/granite/granite_024.jpg,Granite,train
+granite_025,images/granite/granite_025.jpg,Granite,train
+granite_026,images/granite/granite_026.jpg,Granite,train
+granite_027,images/granite/granite_027.jpg,Granite,train
+granite_028,images/granite/granite_028.jpg,Granite,train
+granite_029,images/granite/granite_029.jpg,Granite,test
+granite_030,images/granite/granite_030.jpg,Granite,train
+granite_031,images/granite/granite_031.jpg,Granite,test
+granite_032,images/granite/granite_032.jpg,Granite,train
+granite_033,images/granite/granite_033.jpg,Granite,train
+granite_034,images/granite/granite_034.jpg,Granite,train
+granite_035,images/granite/granite_035.jpg,Granite,test
+granite_036,images/granite/granite_036.jpg,Granite,train
+granite_037,images/granite/granite_037.jpg,Granite,train
+granite_038,images/granite/granite_038.jpg,Granite,train
+granite_039,images/granite/granite_039.jpg,Granite,train
+granite_040,images/granite/granite_040.jpg,Granite,train
+gravel_colluvium_001,images/gravel_colluvium/gravel_colluvium_001.jpg,Gravel Colluvium,train
+gravel_colluvium_002,images/gravel_colluvium/gravel_colluvium_002.jpg,Gravel Colluvium,train
+gravel_colluvium_003,images/gravel_colluvium/gravel_colluvium_003.jpg,Gravel Colluvium,train
+gravel_colluvium_004,images/gravel_colluvium/gravel_colluvium_004.jpg,Gravel Colluvium,test
+gravel_colluvium_005,images/gravel_colluvium/gravel_colluvium_005.jpg,Gravel Colluvium,train
+gravel_colluvium_006,images/gravel_colluvium/gravel_colluvium_006.jpg,Gravel Colluvium,test
+gravel_colluvium_007,images/gravel_colluvium/gravel_colluvium_007.jpg,Gravel Colluvium,test
+gravel_colluvium_008,images/gravel_colluvium/gravel_colluvium_008.jpg,Gravel Colluvium,train
+gravel_colluvium_009,images/gravel_colluvium/gravel_colluvium_009.jpg,Gravel Colluvium,test
+gravel_colluvium_010,images/gravel_colluvium/gravel_colluvium_010.jpg,Gravel Colluvium,train
+gravel_colluvium_011,images/gravel_colluvium/gravel_colluvium_011.jpg,Gravel Colluvium,train
+gravel_colluvium_012,images/gravel_colluvium/gravel_colluvium_012.jpg,Gravel Colluvium,train
+gravel_colluvium_013,images/gravel_colluvium/gravel_colluvium_013.jpg,Gravel Colluvium,train
+gravel_colluvium_014,images/gravel_colluvium/gravel_colluvium_014.jpg,Gravel Colluvium,train
+gravel_colluvium_015,images/gravel_colluvium/gravel_colluvium_015.jpg,Gravel Colluvium,train
+gravel_colluvium_016,images/gravel_colluvium/gravel_colluvium_016.jpg,Gravel Colluvium,test
+gravel_colluvium_017,images/gravel_colluvium/gravel_colluvium_017.jpg,Gravel Colluvium,test
+gravel_colluvium_018,images/gravel_colluvium/gravel_colluvium_018.jpg,Gravel Colluvium,train
+gravel_colluvium_019,images/gravel_colluvium/gravel_colluvium_019.jpg,Gravel Colluvium,train
+gravel_colluvium_020,images/gravel_colluvium/gravel_colluvium_020.jpg,Gravel Colluvium,train
+gravel_colluvium_021,images/gravel_colluvium/gravel_colluvium_021.jpg,Gravel Colluvium,train
+gravel_colluvium_022,images/gravel_colluvium/gravel_colluvium_022.jpg,Gravel Colluvium,train
+gravel_colluvium_023,images/gravel_colluvium/gravel_colluvium_023.jpg,Gravel Colluvium,train
+gravel_colluvium_024,images/gravel_colluvium/gravel_colluvium_024.jpg,Gravel Colluvium,train
+gravel_colluvium_025,images/gravel_colluvium/gravel_colluvium_025.jpg,Gravel Colluvium,train
+gravel_colluvium_026,images/gravel_colluvium/gravel_colluvium_026.jpg,Gravel Colluvium,train
+gravel_colluvium_027,images/gravel_colluvium/gravel_colluvium_027.jpg,Gravel Colluvium,train
+gravel_colluvium_028,images/gravel_colluvium/gravel_colluvium_028.jpg,Gravel Colluvium,train
+gravel_colluvium_029,images/gravel_colluvium/gravel_colluvium_029.jpg,Gravel Colluvium,train
+gravel_colluvium_030,images/gravel_colluvium/gravel_colluvium_030.jpg,Gravel Colluvium,train
+gravel_colluvium_031,images/gravel_colluvium/gravel_colluvium_031.jpg,Gravel Colluvium,train
+gravel_colluvium_032,images/gravel_colluvium/gravel_colluvium_032.jpg,Gravel Colluvium,train
+gravel_colluvium_033,images/gravel_colluvium/gravel_colluvium_033.jpg,Gravel Colluvium,test
+gravel_colluvium_034,images/gravel_colluvium/gravel_colluvium_034.jpg,Gravel Colluvium,train
+gravel_colluvium_035,images/gravel_colluvium/gravel_colluvium_035.jpg,Gravel Colluvium,train
+gravel_colluvium_036,images/gravel_colluvium/gravel_colluvium_036.jpg,Gravel Colluvium,train
+gravel_colluvium_037,images/gravel_colluvium/gravel_colluvium_037.jpg,Gravel Colluvium,train
+gravel_colluvium_038,images/gravel_colluvium/gravel_colluvium_038.jpg,Gravel Colluvium,test
+gravel_colluvium_039,images/gravel_colluvium/gravel_colluvium_039.jpg,Gravel Colluvium,train
+gravel_colluvium_040,images/gravel_colluvium/gravel_colluvium_040.jpg,Gravel Colluvium,train
+limestone_001,images/limestone/limestone_001.jpg,Limestone,train
+limestone_002,images/limestone/limestone_002.jpg,Limestone,train
+limestone_003,images/limestone/limestone_003.jpg,Limestone,train
+limestone_004,images/limestone/limestone_004.jpg,Limestone,train
+limestone_005,images/limestone/limestone_005.jpg,Limestone,train
+limestone_006,images/limestone/limestone_006.jpg,Limestone,train
+limestone_007,images/limestone/limestone_007.jpg,Limestone,test
+limestone_008,images/limestone/limestone_008.jpg,Limestone,test
+limestone_009,images/limestone/limestone_009.jpg,Limestone,train
+limestone_010,images/limestone/limestone_010.jpg,Limestone,train
+limestone_011,images/limestone/limestone_011.jpg,Limestone,train
+limestone_012,images/limestone/limestone_012.jpg,Limestone,train
+limestone_013,images/limestone/limestone_013.jpg,Limestone,train
+limestone_014,images/limestone/limestone_014.jpg,Limestone,train
+limestone_015,images/limestone/limestone_015.jpg,Limestone,test
+limestone_016,images/limestone/limestone_016.jpg,Limestone,train
+limestone_017,images/limestone/limestone_017.jpg,Limestone,train
+limestone_018,images/limestone/limestone_018.jpg,Limestone,train
+limestone_019,images/limestone/limestone_019.jpg,Limestone,train
+limestone_020,images/limestone/limestone_020.jpg,Limestone,train
+limestone_021,images/limestone/limestone_021.jpg,Limestone,train
+limestone_022,images/limestone/limestone_022.jpg,Limestone,train
+limestone_023,images/limestone/limestone_023.jpg,Limestone,test
+limestone_024,images/limestone/limestone_024.jpg,Limestone,train
+limestone_025,images/limestone/limestone_025.jpg,Limestone,test
+limestone_026,images/limestone/limestone_026.jpg,Limestone,train
+limestone_027,images/limestone/limestone_027.jpg,Limestone,test
+limestone_028,images/limestone/limestone_028.jpg,Limestone,train
+limestone_029,images/limestone/limestone_029.jpg,Limestone,test
+limestone_030,images/limestone/limestone_030.jpg,Limestone,train
+limestone_031,images/limestone/limestone_031.jpg,Limestone,train
+limestone_032,images/limestone/limestone_032.jpg,Limestone,train
+limestone_033,images/limestone/limestone_033.jpg,Limestone,train
+limestone_034,images/limestone/limestone_034.jpg,Limestone,train
+limestone_035,images/limestone/limestone_035.jpg,Limestone,test
+limestone_036,images/limestone/limestone_036.jpg,Limestone,train
+limestone_037,images/limestone/limestone_037.jpg,Limestone,train
+limestone_038,images/limestone/limestone_038.jpg,Limestone,train
+limestone_039,images/limestone/limestone_039.jpg,Limestone,train
+limestone_040,images/limestone/limestone_040.jpg,Limestone,train
+sandstone_001,images/sandstone/sandstone_001.jpg,Sandstone,train
+sandstone_002,images/sandstone/sandstone_002.jpg,Sandstone,train
+sandstone_003,images/sandstone/sandstone_003.jpg,Sandstone,train
+sandstone_004,images/sandstone/sandstone_004.jpg,Sandstone,test
+sandstone_005,images/sandstone/sandstone_005.jpg,Sandstone,test
+sandstone_006,images/sandstone/sandstone_006.jpg,Sandstone,train
+sandstone_007,images/sandstone/sandstone_007.jpg,Sandstone,test
+sandstone_008,images/sandstone/sandstone_008.jpg,Sandstone,train
+sandstone_009,images/sandstone/sandstone_009.jpg,Sandstone,train
+sandstone_010,images/sandstone/sandstone_010.jpg,Sandstone,test
+sandstone_011,images/sandstone/sandstone_011.jpg,Sandstone,test
+sandstone_012,images/sandstone/sandstone_012.jpg,Sandstone,train
+sandstone_013,images/sandstone/sandstone_013.jpg,Sandstone,train
+sandstone_014,images/sandstone/sandstone_014.jpg,Sandstone,train
+sandstone_015,images/sandstone/sandstone_015.jpg,Sandstone,train
+sandstone_016,images/sandstone/sandstone_016.jpg,Sandstone,train
+sandstone_017,images/sandstone/sandstone_017.jpg,Sandstone,train
+sandstone_018,images/sandstone/sandstone_018.jpg,Sandstone,train
+sandstone_019,images/sandstone/sandstone_019.jpg,Sandstone,train
+sandstone_020,images/sandstone/sandstone_020.jpg,Sandstone,train
+sandstone_021,images/sandstone/sandstone_021.jpg,Sandstone,train
+sandstone_022,images/sandstone/sandstone_022.jpg,Sandstone,test
+sandstone_023,images/sandstone/sandstone_023.jpg,Sandstone,train
+sandstone_024,images/sandstone/sandstone_024.jpg,Sandstone,train
+sandstone_025,images/sandstone/sandstone_025.jpg,Sandstone,train
+sandstone_026,images/sandstone/sandstone_026.jpg,Sandstone,train
+sandstone_027,images/sandstone/sandstone_027.jpg,Sandstone,train
+sandstone_028,images/sandstone/sandstone_028.jpg,Sandstone,train
+sandstone_029,images/sandstone/sandstone_029.jpg,Sandstone,train
+sandstone_030,images/sandstone/sandstone_030.jpg,Sandstone,train
+sandstone_031,images/sandstone/sandstone_031.jpg,Sandstone,train
+sandstone_032,images/sandstone/sandstone_032.jpg,Sandstone,train
+sandstone_033,images/sandstone/sandstone_033.jpg,Sandstone,test
+sandstone_034,images/sandstone/sandstone_034.jpg,Sandstone,train
+sandstone_035,images/sandstone/sandstone_035.jpg,Sandstone,train
+sandstone_036,images/sandstone/sandstone_036.jpg,Sandstone,train
+sandstone_037,images/sandstone/sandstone_037.jpg,Sandstone,train
+sandstone_038,images/sandstone/sandstone_038.jpg,Sandstone,train
+sandstone_039,images/sandstone/sandstone_039.jpg,Sandstone,train
+sandstone_040,images/sandstone/sandstone_040.jpg,Sandstone,test
+sandy_soil_001,images/sandy_soil/sandy_soil_001.jpg,Sandy Soil,train
+sandy_soil_002,images/sandy_soil/sandy_soil_002.jpg,Sandy Soil,train
+sandy_soil_003,images/sandy_soil/sandy_soil_003.jpg,Sandy Soil,test
+sandy_soil_004,images/sandy_soil/sandy_soil_004.jpg,Sandy Soil,train
+sandy_soil_005,images/sandy_soil/sandy_soil_005.jpg,Sandy Soil,test
+sandy_soil_006,images/sandy_soil/sandy_soil_006.jpg,Sandy Soil,train
+sandy_soil_007,images/sandy_soil/sandy_soil_007.jpg,Sandy Soil,train
+sandy_soil_008,images/sandy_soil/sandy_soil_008.jpg,Sandy Soil,train
+sandy_soil_009,images/sandy_soil/sandy_soil_009.jpg,Sandy Soil,train
+sandy_soil_010,images/sandy_soil/sandy_soil_010.jpg,Sandy Soil,train
+sandy_soil_011,images/sandy_soil/sandy_soil_011.jpg,Sandy Soil,test
+sandy_soil_012,images/sandy_soil/sandy_soil_012.jpg,Sandy Soil,train
+sandy_soil_013,images/sandy_soil/sandy_soil_013.jpg,Sandy Soil,train
+sandy_soil_014,images/sandy_soil/sandy_soil_014.jpg,Sandy Soil,train
+sandy_soil_015,images/sandy_soil/sandy_soil_015.jpg,Sandy Soil,test
+sandy_soil_016,images/sandy_soil/sandy_soil_016.jpg,Sandy Soil,train
+sandy_soil_017,images/sandy_soil/sandy_soil_017.jpg,Sandy Soil,train
+sandy_soil_018,images/sandy_soil/sandy_soil_018.jpg,Sandy Soil,train
+sandy_soil_019,images/sandy_soil/sandy_soil_019.jpg,Sandy Soil,train
+sandy_soil_020,images/sandy_soil/sandy_soil_020.jpg,Sandy Soil,test
+sandy_soil_021,images/sandy_soil/sandy_soil_021.jpg,Sandy Soil,train
+sandy_soil_022,images/sandy_soil/sandy_soil_022.jpg,Sandy Soil,train
+sandy_soil_023,images/sandy_soil/sandy_soil_023.jpg,Sandy Soil,train
+sandy_soil_024,images/sandy_soil/sandy_soil_024.jpg,Sandy Soil,test
+sandy_soil_025,images/sandy_soil/sandy_soil_025.jpg,Sandy Soil,train
+sandy_soil_026,images/sandy_soil/sandy_soil_026.jpg,Sandy Soil,train
+sandy_soil_027,images/sandy_soil/sandy_soil_027.jpg,Sandy Soil,train
+sandy_soil_028,images/sandy_soil/sandy_soil_028.jpg,Sandy Soil,train
+sandy_soil_029,images/sandy_soil/sandy_soil_029.jpg,Sandy Soil,train
+sandy_soil_030,images/sandy_soil/sandy_soil_030.jpg,Sandy Soil,train
+sandy_soil_031,images/sandy_soil/sandy_soil_031.jpg,Sandy Soil,test
+sandy_soil_032,images/sandy_soil/sandy_soil_032.jpg,Sandy Soil,test
+sandy_soil_033,images/sandy_soil/sandy_soil_033.jpg,Sandy Soil,train
+sandy_soil_034,images/sandy_soil/sandy_soil_034.jpg,Sandy Soil,train
+sandy_soil_035,images/sandy_soil/sandy_soil_035.jpg,Sandy Soil,train
+sandy_soil_036,images/sandy_soil/sandy_soil_036.jpg,Sandy Soil,train
+sandy_soil_037,images/sandy_soil/sandy_soil_037.jpg,Sandy Soil,train
+sandy_soil_038,images/sandy_soil/sandy_soil_038.jpg,Sandy Soil,train
+sandy_soil_039,images/sandy_soil/sandy_soil_039.jpg,Sandy Soil,train
+sandy_soil_040,images/sandy_soil/sandy_soil_040.jpg,Sandy Soil,train
+shale_001,images/shale/shale_001.jpg,Shale,train
+shale_002,images/shale/shale_002.jpg,Shale,test
+shale_003,images/shale/shale_003.jpg,Shale,train
+shale_004,images/shale/shale_004.jpg,Shale,train
+shale_005,images/shale/shale_005.jpg,Shale,train
+shale_006,images/shale/shale_006.jpg,Shale,train
+shale_007,images/shale/shale_007.jpg,Shale,train
+shale_008,images/shale/shale_008.jpg,Shale,train
+shale_009,images/shale/shale_009.jpg,Shale,test
+shale_010,images/shale/shale_010.jpg,Shale,train
+shale_011,images/shale/shale_011.jpg,Shale,train
+shale_012,images/shale/shale_012.jpg,Shale,test
+shale_013,images/shale/shale_013.jpg,Shale,train
+shale_014,images/shale/shale_014.jpg,Shale,test
+shale_015,images/shale/shale_015.jpg,Shale,train
+shale_016,images/shale/shale_016.jpg,Shale,train
+shale_017,images/shale/shale_017.jpg,Shale,train
+shale_018,images/shale/shale_018.jpg,Shale,train
+shale_019,images/shale/shale_019.jpg,Shale,train
+shale_020,images/shale/shale_020.jpg,Shale,train
+shale_021,images/shale/shale_021.jpg,Shale,train
+shale_022,images/shale/shale_022.jpg,Shale,train
+shale_023,images/shale/shale_023.jpg,Shale,train
+shale_024,images/shale/shale_024.jpg,Shale,train
+shale_025,images/shale/shale_025.jpg,Shale,test
+shale_026,images/shale/shale_026.jpg,Shale,train
+shale_027,images/shale/shale_027.jpg,Shale,train
+shale_028,images/shale/shale_028.jpg,Shale,test
+shale_029,images/shale/shale_029.jpg,Shale,train
+shale_030,images/shale/shale_030.jpg,Shale,train
+shale_031,images/shale/shale_031.jpg,Shale,train
+shale_032,images/shale/shale_032.jpg,Shale,test
+shale_033,images/shale/shale_033.jpg,Shale,test
+shale_034,images/shale/shale_034.jpg,Shale,train
+shale_035,images/shale/shale_035.jpg,Shale,train
+shale_036,images/shale/shale_036.jpg,Shale,train
+shale_037,images/shale/shale_037.jpg,Shale,train
+shale_038,images/shale/shale_038.jpg,Shale,train
+shale_039,images/shale/shale_039.jpg,Shale,train
+shale_040,images/shale/shale_040.jpg,Shale,train

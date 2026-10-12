@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: talus-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile.backend
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: TALUS_CORS_ORIGINS
+        value: "*"
+  - type: web
+    name: talus-control-room
+    runtime: docker
+    dockerfilePath: ./Dockerfile.frontend
+    plan: free
+    envVars:
+      - key: TALUS_API_URL
+        value: https://talus-api.onrender.com

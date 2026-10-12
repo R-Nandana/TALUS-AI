@@ -1,0 +1,321 @@
+image_id,filepath,material,material_type,moisture_state,source
+granite_001,images/granite/granite_001.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_002,images/granite/granite_002.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_003,images/granite/granite_003.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_004,images/granite/granite_004.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_005,images/granite/granite_005.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_006,images/granite/granite_006.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_007,images/granite/granite_007.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_008,images/granite/granite_008.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_009,images/granite/granite_009.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_010,images/granite/granite_010.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_011,images/granite/granite_011.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_012,images/granite/granite_012.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_013,images/granite/granite_013.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_014,images/granite/granite_014.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_015,images/granite/granite_015.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_016,images/granite/granite_016.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_017,images/granite/granite_017.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_018,images/granite/granite_018.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_019,images/granite/granite_019.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_020,images/granite/granite_020.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_021,images/granite/granite_021.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_022,images/granite/granite_022.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_023,images/granite/granite_023.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_024,images/granite/granite_024.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_025,images/granite/granite_025.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_026,images/granite/granite_026.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_027,images/granite/granite_027.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_028,images/granite/granite_028.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_029,images/granite/granite_029.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_030,images/granite/granite_030.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_031,images/granite/granite_031.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_032,images/granite/granite_032.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_033,images/granite/granite_033.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_034,images/granite/granite_034.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_035,images/granite/granite_035.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_036,images/granite/granite_036.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_037,images/granite/granite_037.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_038,images/granite/granite_038.jpg,Granite,Rock,dry,PROCEDURAL/SYNTHETIC
+granite_039,images/granite/granite_039.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+granite_040,images/granite/granite_040.jpg,Granite,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_001,images/basalt/basalt_001.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_002,images/basalt/basalt_002.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_003,images/basalt/basalt_003.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_004,images/basalt/basalt_004.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_005,images/basalt/basalt_005.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_006,images/basalt/basalt_006.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_007,images/basalt/basalt_007.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_008,images/basalt/basalt_008.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_009,images/basalt/basalt_009.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_010,images/basalt/basalt_010.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_011,images/basalt/basalt_011.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_012,images/basalt/basalt_012.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_013,images/basalt/basalt_013.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_014,images/basalt/basalt_014.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_015,images/basalt/basalt_015.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_016,images/basalt/basalt_016.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_017,images/basalt/basalt_017.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_018,images/basalt/basalt_018.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_019,images/basalt/basalt_019.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_020,images/basalt/basalt_020.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_021,images/basalt/basalt_021.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_022,images/basalt/basalt_022.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_023,images/basalt/basalt_023.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_024,images/basalt/basalt_024.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_025,images/basalt/basalt_025.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_026,images/basalt/basalt_026.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_027,images/basalt/basalt_027.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_028,images/basalt/basalt_028.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_029,images/basalt/basalt_029.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_030,images/basalt/basalt_030.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_031,images/basalt/basalt_031.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_032,images/basalt/basalt_032.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_033,images/basalt/basalt_033.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_034,images/basalt/basalt_034.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_035,images/basalt/basalt_035.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_036,images/basalt/basalt_036.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_037,images/basalt/basalt_037.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_038,images/basalt/basalt_038.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+basalt_039,images/basalt/basalt_039.jpg,Basalt,Rock,wet,PROCEDURAL/SYNTHETIC
+basalt_040,images/basalt/basalt_040.jpg,Basalt,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_001,images/sandstone/sandstone_001.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_002,images/sandstone/sandstone_002.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_003,images/sandstone/sandstone_003.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_004,images/sandstone/sandstone_004.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_005,images/sandstone/sandstone_005.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_006,images/sandstone/sandstone_006.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_007,images/sandstone/sandstone_007.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_008,images/sandstone/sandstone_008.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_009,images/sandstone/sandstone_009.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_010,images/sandstone/sandstone_010.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_011,images/sandstone/sandstone_011.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_012,images/sandstone/sandstone_012.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_013,images/sandstone/sandstone_013.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_014,images/sandstone/sandstone_014.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_015,images/sandstone/sandstone_015.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_016,images/sandstone/sandstone_016.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_017,images/sandstone/sandstone_017.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_018,images/sandstone/sandstone_018.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_019,images/sandstone/sandstone_019.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_020,images/sandstone/sandstone_020.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_021,images/sandstone/sandstone_021.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_022,images/sandstone/sandstone_022.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_023,images/sandstone/sandstone_023.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_024,images/sandstone/sandstone_024.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_025,images/sandstone/sandstone_025.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_026,images/sandstone/sandstone_026.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_027,images/sandstone/sandstone_027.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_028,images/sandstone/sandstone_028.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_029,images/sandstone/sandstone_029.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_030,images/sandstone/sandstone_030.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_031,images/sandstone/sandstone_031.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_032,images/sandstone/sandstone_032.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_033,images/sandstone/sandstone_033.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_034,images/sandstone/sandstone_034.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_035,images/sandstone/sandstone_035.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_036,images/sandstone/sandstone_036.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_037,images/sandstone/sandstone_037.jpg,Sandstone,Rock,wet,PROCEDURAL/SYNTHETIC
+sandstone_038,images/sandstone/sandstone_038.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_039,images/sandstone/sandstone_039.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+sandstone_040,images/sandstone/sandstone_040.jpg,Sandstone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_001,images/limestone/limestone_001.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_002,images/limestone/limestone_002.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_003,images/limestone/limestone_003.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_004,images/limestone/limestone_004.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_005,images/limestone/limestone_005.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_006,images/limestone/limestone_006.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_007,images/limestone/limestone_007.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_008,images/limestone/limestone_008.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_009,images/limestone/limestone_009.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_010,images/limestone/limestone_010.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_011,images/limestone/limestone_011.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_012,images/limestone/limestone_012.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_013,images/limestone/limestone_013.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_014,images/limestone/limestone_014.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_015,images/limestone/limestone_015.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_016,images/limestone/limestone_016.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_017,images/limestone/limestone_017.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_018,images/limestone/limestone_018.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_019,images/limestone/limestone_019.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_020,images/limestone/limestone_020.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_021,images/limestone/limestone_021.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_022,images/limestone/limestone_022.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_023,images/limestone/limestone_023.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_024,images/limestone/limestone_024.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_025,images/limestone/limestone_025.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_026,images/limestone/limestone_026.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_027,images/limestone/limestone_027.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_028,images/limestone/limestone_028.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_029,images/limestone/limestone_029.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_030,images/limestone/limestone_030.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_031,images/limestone/limestone_031.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_032,images/limestone/limestone_032.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_033,images/limestone/limestone_033.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_034,images/limestone/limestone_034.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_035,images/limestone/limestone_035.jpg,Limestone,Rock,wet,PROCEDURAL/SYNTHETIC
+limestone_036,images/limestone/limestone_036.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_037,images/limestone/limestone_037.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_038,images/limestone/limestone_038.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_039,images/limestone/limestone_039.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+limestone_040,images/limestone/limestone_040.jpg,Limestone,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_001,images/shale/shale_001.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_002,images/shale/shale_002.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_003,images/shale/shale_003.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_004,images/shale/shale_004.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_005,images/shale/shale_005.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_006,images/shale/shale_006.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_007,images/shale/shale_007.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_008,images/shale/shale_008.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_009,images/shale/shale_009.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_010,images/shale/shale_010.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_011,images/shale/shale_011.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_012,images/shale/shale_012.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_013,images/shale/shale_013.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_014,images/shale/shale_014.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_015,images/shale/shale_015.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_016,images/shale/shale_016.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_017,images/shale/shale_017.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_018,images/shale/shale_018.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_019,images/shale/shale_019.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_020,images/shale/shale_020.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_021,images/shale/shale_021.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_022,images/shale/shale_022.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_023,images/shale/shale_023.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_024,images/shale/shale_024.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_025,images/shale/shale_025.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_026,images/shale/shale_026.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_027,images/shale/shale_027.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_028,images/shale/shale_028.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_029,images/shale/shale_029.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_030,images/shale/shale_030.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_031,images/shale/shale_031.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_032,images/shale/shale_032.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_033,images/shale/shale_033.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_034,images/shale/shale_034.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_035,images/shale/shale_035.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_036,images/shale/shale_036.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_037,images/shale/shale_037.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_038,images/shale/shale_038.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+shale_039,images/shale/shale_039.jpg,Shale,Rock,wet,PROCEDURAL/SYNTHETIC
+shale_040,images/shale/shale_040.jpg,Shale,Rock,dry,PROCEDURAL/SYNTHETIC
+clay_001,images/clay/clay_001.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_002,images/clay/clay_002.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_003,images/clay/clay_003.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_004,images/clay/clay_004.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_005,images/clay/clay_005.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_006,images/clay/clay_006.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_007,images/clay/clay_007.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_008,images/clay/clay_008.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_009,images/clay/clay_009.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_010,images/clay/clay_010.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_011,images/clay/clay_011.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_012,images/clay/clay_012.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_013,images/clay/clay_013.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_014,images/clay/clay_014.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_015,images/clay/clay_015.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_016,images/clay/clay_016.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_017,images/clay/clay_017.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_018,images/clay/clay_018.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_019,images/clay/clay_019.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_020,images/clay/clay_020.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_021,images/clay/clay_021.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_022,images/clay/clay_022.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_023,images/clay/clay_023.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_024,images/clay/clay_024.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_025,images/clay/clay_025.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_026,images/clay/clay_026.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_027,images/clay/clay_027.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_028,images/clay/clay_028.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_029,images/clay/clay_029.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_030,images/clay/clay_030.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_031,images/clay/clay_031.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_032,images/clay/clay_032.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_033,images/clay/clay_033.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_034,images/clay/clay_034.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_035,images/clay/clay_035.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_036,images/clay/clay_036.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_037,images/clay/clay_037.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_038,images/clay/clay_038.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+clay_039,images/clay/clay_039.jpg,Clay,Soil,dry,PROCEDURAL/SYNTHETIC
+clay_040,images/clay/clay_040.jpg,Clay,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_001,images/sandy_soil/sandy_soil_001.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_002,images/sandy_soil/sandy_soil_002.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_003,images/sandy_soil/sandy_soil_003.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_004,images/sandy_soil/sandy_soil_004.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_005,images/sandy_soil/sandy_soil_005.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_006,images/sandy_soil/sandy_soil_006.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_007,images/sandy_soil/sandy_soil_007.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_008,images/sandy_soil/sandy_soil_008.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_009,images/sandy_soil/sandy_soil_009.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_010,images/sandy_soil/sandy_soil_010.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_011,images/sandy_soil/sandy_soil_011.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_012,images/sandy_soil/sandy_soil_012.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_013,images/sandy_soil/sandy_soil_013.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_014,images/sandy_soil/sandy_soil_014.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_015,images/sandy_soil/sandy_soil_015.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_016,images/sandy_soil/sandy_soil_016.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_017,images/sandy_soil/sandy_soil_017.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_018,images/sandy_soil/sandy_soil_018.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_019,images/sandy_soil/sandy_soil_019.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_020,images/sandy_soil/sandy_soil_020.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_021,images/sandy_soil/sandy_soil_021.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_022,images/sandy_soil/sandy_soil_022.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_023,images/sandy_soil/sandy_soil_023.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_024,images/sandy_soil/sandy_soil_024.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_025,images/sandy_soil/sandy_soil_025.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_026,images/sandy_soil/sandy_soil_026.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_027,images/sandy_soil/sandy_soil_027.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_028,images/sandy_soil/sandy_soil_028.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_029,images/sandy_soil/sandy_soil_029.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_030,images/sandy_soil/sandy_soil_030.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_031,images/sandy_soil/sandy_soil_031.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_032,images/sandy_soil/sandy_soil_032.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_033,images/sandy_soil/sandy_soil_033.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_034,images/sandy_soil/sandy_soil_034.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_035,images/sandy_soil/sandy_soil_035.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_036,images/sandy_soil/sandy_soil_036.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_037,images/sandy_soil/sandy_soil_037.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+sandy_soil_038,images/sandy_soil/sandy_soil_038.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_039,images/sandy_soil/sandy_soil_039.jpg,Sandy Soil,Soil,wet,PROCEDURAL/SYNTHETIC
+sandy_soil_040,images/sandy_soil/sandy_soil_040.jpg,Sandy Soil,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_001,images/gravel_colluvium/gravel_colluvium_001.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_002,images/gravel_colluvium/gravel_colluvium_002.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_003,images/gravel_colluvium/gravel_colluvium_003.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_004,images/gravel_colluvium/gravel_colluvium_004.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_005,images/gravel_colluvium/gravel_colluvium_005.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_006,images/gravel_colluvium/gravel_colluvium_006.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_007,images/gravel_colluvium/gravel_colluvium_007.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_008,images/gravel_colluvium/gravel_colluvium_008.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_009,images/gravel_colluvium/gravel_colluvium_009.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_010,images/gravel_colluvium/gravel_colluvium_010.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_011,images/gravel_colluvium/gravel_colluvium_011.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_012,images/gravel_colluvium/gravel_colluvium_012.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_013,images/gravel_colluvium/gravel_colluvium_013.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_014,images/gravel_colluvium/gravel_colluvium_014.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_015,images/gravel_colluvium/gravel_colluvium_015.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_016,images/gravel_colluvium/gravel_colluvium_016.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_017,images/gravel_colluvium/gravel_colluvium_017.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_018,images/gravel_colluvium/gravel_colluvium_018.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_019,images/gravel_colluvium/gravel_colluvium_019.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_020,images/gravel_colluvium/gravel_colluvium_020.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_021,images/gravel_colluvium/gravel_colluvium_021.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_022,images/gravel_colluvium/gravel_colluvium_022.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_023,images/gravel_colluvium/gravel_colluvium_023.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_024,images/gravel_colluvium/gravel_colluvium_024.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_025,images/gravel_colluvium/gravel_colluvium_025.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_026,images/gravel_colluvium/gravel_colluvium_026.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_027,images/gravel_colluvium/gravel_colluvium_027.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_028,images/gravel_colluvium/gravel_colluvium_028.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_029,images/gravel_colluvium/gravel_colluvium_029.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_030,images/gravel_colluvium/gravel_colluvium_030.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_031,images/gravel_colluvium/gravel_colluvium_031.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_032,images/gravel_colluvium/gravel_colluvium_032.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_033,images/gravel_colluvium/gravel_colluvium_033.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_034,images/gravel_colluvium/gravel_colluvium_034.jpg,Gravel Colluvium,Soil,wet,PROCEDURAL/SYNTHETIC
+gravel_colluvium_035,images/gravel_colluvium/gravel_colluvium_035.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_036,images/gravel_colluvium/gravel_colluvium_036.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_037,images/gravel_colluvium/gravel_colluvium_037.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_038,images/gravel_colluvium/gravel_colluvium_038.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_039,images/gravel_colluvium/gravel_colluvium_039.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC
+gravel_colluvium_040,images/gravel_colluvium/gravel_colluvium_040.jpg,Gravel Colluvium,Soil,dry,PROCEDURAL/SYNTHETIC

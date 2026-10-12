@@ -1,0 +1,72 @@
+{
+  "slope": {
+    "rows_raw": 1245,
+    "sector_id_fixed": 75,
+    "timestamps_reformatted": 101,
+    "timestamps_unparseable": 0,
+    "blasting_flag_fixed": 75,
+    "duplicates_removed": 45,
+    "missing_before_cleaning": 413,
+    "invalid_values_by_column": {
+      "slope_angle_deg": 6,
+      "rainfall_mm": 10,
+      "groundwater_level": 12,
+      "deformation_rate_mm_day": 6
+    },
+    "sentinel_999_found": 12,
+    "risk_label_case_fixed": 60,
+    "risk_label_mismatch_after_fix": 0,
+    "missing_to_impute": 447,
+    "imputation": {
+      "groundwater_level": "median (48)",
+      "rainfall_mm": "median (45)",
+      "pore_pressure_kpa": "regression on groundwater+rainfall (36)",
+      "deformation_rate_mm_day": "displacement / median ratio 9.1 d (41)",
+      "slope_height_m": "median (36)",
+      "slope_angle_deg": "median (42)",
+      "cohesion_kpa": "median (36)",
+      "friction_angle_deg": "median (36)",
+      "unit_weight_kn_m3": "median (36)",
+      "equipment_load": "median (36)",
+      "displacement_mm": "median (1)",
+      "factor_of_safety": "recomputed by Limit-Equilibrium physics (18)"
+    },
+    "pore_pressure_model": {
+      "intercept": 3.547,
+      "per_m_groundwater": 9.634,
+      "per_mm_rain": 0.772
+    },
+    "missing_after_cleaning": 0,
+    "iqr_outliers_flagged_retained": {
+      "rainfall_mm": 10,
+      "deformation_rate_mm_day": 27,
+      "displacement_mm": 28,
+      "pore_pressure_kpa": 0,
+      "factor_of_safety": 0
+    },
+    "rows_clean": 1200
+  },
+  "rock_soil": {
+    "rows_raw": 488,
+    "material_names_fixed": 26,
+    "duplicates_removed": 8,
+    "unit_weight_gcm3_converted": 10,
+    "invalid_values_by_column": {
+      "friction_angle_deg": 5
+    },
+    "missing_to_impute": 111,
+    "missing_after_cleaning": 0,
+    "legit_missing_soil_rqd_gsi": 360,
+    "rows_clean": 480
+  },
+  "images": {
+    "files_found": 320,
+    "unreadable_removed": 0,
+    "duplicates_removed": 0,
+    "quality_rejected": 0,
+    "images_kept": 320,
+    "classes": 8,
+    "train": 256,
+    "test": 64
+  }
+}

@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      TALUS_DB_PATH: /app/database/talus.db
+      TALUS_CORS_ORIGINS: "*"
+    ports:
+      - "8000:8000"
+    volumes:
+      - talus-db:/app/database
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    environment:
+      TALUS_API_URL: http://backend:8000
+    depends_on:
+      - backend
+    ports:
+      - "8501:8501"
+volumes:
+  talus-db:
