@@ -1059,7 +1059,7 @@ elif nav == "AI Vision & YOLO":
                 rep = requests.post(
                     f"{API_URL}/yolo/detect",
                     files={"file": ("bench.jpg", img_bytes_to_run, "image/jpeg")},
-                    timeout=25
+                    timeout=120
                 )
                 rep.raise_for_status()
                 yolo_data = rep.json()
