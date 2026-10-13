@@ -15,4 +15,7 @@ services:
     plan: free
     envVars:
       - key: TALUS_API_URL
-        value: https://talus-api.onrender.com
+        fromService:
+          type: web
+          name: talus-api
+          envVarKey: RENDER_EXTERNAL_URL
