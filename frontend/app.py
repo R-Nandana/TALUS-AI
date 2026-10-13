@@ -224,8 +224,8 @@ section[data-testid="stSidebar"] {
 
 # API client methods
 @st.cache_data(ttl=10, show_spinner=False)
-def api_get(path: str) -> dict:
-    r = requests.get(f"{API_URL}{path}", timeout=8)
+def api_get(path: str, timeout: int = 8) -> dict:
+    r = requests.get(f"{API_URL}{path}", timeout=timeout)
     r.raise_for_status()
     return r.json()
 
@@ -254,7 +254,7 @@ def get_3d_layout(fig, title: str = "", height: int = 420):
 
 # Check Backend API Health
 try:
-    health_resp = api_get("/health")
+    health_resp = api_get("/health", timeout=90)
     connected = health_resp.get("status") == "healthy"
 except Exception:
     connected = False
