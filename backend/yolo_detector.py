@@ -18,7 +18,9 @@ _yolo_model = None
 def get_yolo_model():
     global _yolo_model
     if _yolo_model is None:
+        import torch
         from ultralytics import YOLO
+        torch.set_num_threads(1)
         if YOLO_WEIGHTS.exists():
             _yolo_model = YOLO(str(YOLO_WEIGHTS))
         else:
@@ -36,7 +38,7 @@ def detect_mine_hazards(image_bytes: bytes) -> Dict[str, Any]:
     w, h = img.size
     
     # Run YOLO detection
-    results = model(img, conf=0.25, verbose=False)
+    results = model.predict(img, conf=0.25, imgsz=320, device="cpu", max_det=50, verbose=False)
     boxes_out = []
     detected_classes = []
     
