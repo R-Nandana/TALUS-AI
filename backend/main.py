@@ -5,6 +5,7 @@ from datetime import datetime
 from fastapi import FastAPI, HTTPException, Path, Query, UploadFile, File, Form
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.concurrency import run_in_threadpool
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
@@ -320,7 +321,7 @@ async def yolo_detect_endpoint(file: UploadFile = File(...)):
     if len(raw) > 12 * 1024 * 1024:
         raise HTTPException(status_code=413, detail="Image must be 12 MB or smaller.")
     try:
-        result = detect_mine_hazards(raw)
+        result = await run_in_threadpool(detect_mine_hazards, raw)
         annotated_b64 = base64.b64encode(result.pop("annotated_image_bytes")).decode("utf-8")
         result["annotated_image_base64"] = annotated_b64
         return result
